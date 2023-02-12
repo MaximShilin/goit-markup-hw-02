@@ -1,16 +1,27 @@
+:root {
+    --brand-color: #4D5AE5;
+    --brand-color-team: #F4F4FD;
+    --pressed-state-color: #404BBF;
+    --background-color: #FFFFFF;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --footer-text-color:#E7E9FC;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455; font-size: 16px;
+    color: var(--text-color); font-size: 16px;
     line-height: 1.5;
-    background: #FFFFFF}
+    background: var(--background-color)}
 
 /*---------LOGO---------*/
 .header-logo-web, .footer-logo-web {
-    color: #4D5AE5;}
+    color: var(--brand-color);}
 .header-logo-studio {
-    color: #2E2F42;}
+    color: var(--title-color)}
 .footer-logo-studio {
-    color: #F4F4FD;}
+    color: var(--brand-color-team);}
 .header-logo, .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -18,29 +29,29 @@ body {
 
 /*---------HEDER---------*/
 .header {
-    background: #FFFFFF;}
+    background: var(--background-color);}
 .header-item {
     font-weight: 500;}
 .header-link:is(:hover, :focus) {
-    color: #404BBF;}
+    color: var(--pressed-state-color);}
 .mail-link:is(:hover, :focus) {
-    color: #404BBF;}
+    color: var(--pressed-state-color);}
 .tel-link:is(:hover, :focus) {
-    color: #404BBF;}
+    color: var(--pressed-state-color);}
 /*---------Hiro-Section---------*/
 .hiro {
-    background: #2E2F42;}
+    background: var(--title-color)}
 .hiro-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em; 
-    color: #FFFFFF;}
+    color: var(--background-color);}
 .hiro-btn {
     cursor: pointer;
-    background-color: #4D5AE5; 
-    color: #FFFFFF;}
+    background-color: var(--brand-color); 
+    color: var(--background-color);}
 .hiro-btn:is(:hover, :focus) {
-    background-color: #404BBF;}
+    background-color: var(--pressed-state-color);}
 
 /*---------Advantages-Section---------*/
 .advantages-title {
@@ -59,7 +70,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    background: #F4F4FD;}
+    background: var(--brand-color-team);}
 .team-item-title {
     font-size: 20px;
     line-height: 1.2;
@@ -77,7 +88,8 @@ body {
 
 /*---------Futer---------*/
 .footer {
-    background: #2E2F42;}
+    background:var(--title-color);}
 .footer-logo {
     font-family: 'Raleway', sans-serif; 
     font-size: 18px;}
+.footer-title { color: var(--footer-text-color);}
