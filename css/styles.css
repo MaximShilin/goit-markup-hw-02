@@ -8,7 +8,6 @@
     --footer-text-color:#E7E9FC;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color); font-size: 16px;
@@ -17,23 +16,34 @@ body {
 
 /*---------LOGO---------*/
 .header-logo-web, .footer-logo-web {
-    color: var(--brand-color);}
+    color: var(--brand-color);
+}
 .header-logo-studio {
     color: var(--title-color)}
 .footer-logo-studio {
     color: var(--brand-color-team);}
 .header-logo, .footer-logo {
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
 }
 
 /*---------HEDER---------*/
 .header {
-    background: var(--background-color);}
+    background: var(--background-color);
+}
 .header-item {
     font-weight: 500;}
-.header-link:is(:hover, :focus) {
+.header-link {
+    color: inherit;
+    text-decoration: none}
+.header-link:is(:hover, :focus) { 
     color: var(--pressed-state-color);}
+.mail-link, .tel-link {
+    color: inherit;
+    text-decoration: none}
 .mail-link:is(:hover, :focus) {
     color: var(--pressed-state-color);}
 .tel-link:is(:hover, :focus) {
@@ -43,11 +53,12 @@ body {
     background: var(--title-color)}
 .hiro-title {
     font-size: 56px;
+    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em; 
-    color: var(--background-color);}
+    color: var(--background-color);
+    text-align: center;}
 .hiro-btn {
-    cursor: pointer;
     background-color: var(--brand-color); 
     color: var(--background-color);}
 .hiro-btn:is(:hover, :focus) {
@@ -63,14 +74,17 @@ body {
 .examples-title {
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    text-align: center;}
 
 /*---------Team-Section---------*/
+.team {
+    background: var(--brand-color-team);}
 .team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    background: var(--brand-color-team);}
+    text-align: center;}
 .team-item-title {
     font-size: 20px;
     line-height: 1.2;
@@ -78,7 +92,9 @@ body {
 
 /*---------Buttons-Section---------*/
 .buttons-btn {
-    cursor: pointer}
+    cursor: pointer;
+    color: var(--brand-color);
+background-color: var(--brand-color-team);}
 
 /*---------Buttons-Section---------*/
 .projects-title {
