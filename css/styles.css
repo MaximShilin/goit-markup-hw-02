@@ -1,59 +1,83 @@
-body {font-family: 'Roboto', sans-serif; color: #434455; font-size: 16px; line-height: 1.5;}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455; font-size: 16px;
+    line-height: 1.5;
+    background: #FFFFFF}
+
+/*---------LOGO---------*/
+.header-logo-web, .footer-logo-web {
+    color: #4D5AE5;}
+.header-logo-studio {
+    color: #2E2F42;}
+.footer-logo-studio {
+    color: #F4F4FD;}
+.header-logo, .footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
 
 /*---------HEDER---------*/
-.header {}
-.header-navigation {}
-.header-logo {font-family: 'Raleway', sans-serif; font-size: 18px;}
-.header-list {}
-.header-item {font-weight: 500;}
-.header-link:is(:hover, :focus) {color: #404BBF;}
-.mail-link:is(:hover, :focus) {color: #404BBF;}
-.tel-link:is(:hover, :focus) {color: #404BBF;}
-
+.header {
+    background: #FFFFFF;}
+.header-item {
+    font-weight: 500;}
+.header-link:is(:hover, :focus) {
+    color: #404BBF;}
+.mail-link:is(:hover, :focus) {
+    color: #404BBF;}
+.tel-link:is(:hover, :focus) {
+    color: #404BBF;}
 /*---------Hiro-Section---------*/
-.hiro {}
-.hiro-title {font-size: 56px;line-height: 1.07;letter-spacing: 0.02em;}
-.hiro-btn {cursor: pointer; background-color: #4D5AE5; color: #FFFFFF;}
-.hiro-btn:is(:hover, :focus) {background-color: #404BBF;}
+.hiro {
+    background: #2E2F42;}
+.hiro-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em; 
+    color: #FFFFFF;}
+.hiro-btn {
+    cursor: pointer;
+    background-color: #4D5AE5; 
+    color: #FFFFFF;}
+.hiro-btn:is(:hover, :focus) {
+    background-color: #404BBF;}
 
 /*---------Advantages-Section---------*/
-.advantages {}
-.advantages-list {}
-.advantages-item {}
-.advantages-title {font-size: 20px;line-height: 1.2;letter-spacing: 0.02em;}
-.advantages-text {}
+.advantages-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
 
 /*---------Examples-Section---------*/
-.examples {}
-.examples-title {font-size: 36px;line-height: 1.11;letter-spacing: 0.02em;}
-.examples-list {}
-.examples-item {}
-.examles-img {}
+.examples-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;}
 
 /*---------Team-Section---------*/
-.team {}
-.team-title {font-size: 36px;line-height: 1.11;letter-spacing: 0.02em;}
-.team-list {}
-.team-item {}
-.team-item-img {}
-.team-item-title {font-size: 20px;line-height: 1.2;letter-spacing: 0.02em;}
-.team-item-text {}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    background: #F4F4FD;}
+.team-item-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
 
 /*---------Buttons-Section---------*/
-.buttons {}
-.buttons-list {}
-.buttons-item {}
-.buttons-btn {cursor: pointer}
+.buttons-btn {
+    cursor: pointer}
 
 /*---------Buttons-Section---------*/
-.projects {}
-.projects-list {}
-.projects-item {}
-.projects-img {}
-.projects-title {font-size: 20px;line-height: 1.2;letter-spacing: 0.02em;}
-.projects-text {}
+.projects-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
 
 /*---------Futer---------*/
-.footer {}
-.footer-logo {font-family: 'Raleway', sans-serif; font-size: 18px;}
-.footer-title {}
+.footer {
+    background: #2E2F42;}
+.footer-logo {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 18px;}
